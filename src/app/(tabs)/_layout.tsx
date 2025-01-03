@@ -2,7 +2,6 @@ import React from "react";
 import { Tabs } from "expo-router";
 import { Feather } from "@expo/vector-icons";
 
-
 import { colors } from "@/styles/colors";
 
 export default function TabsLayout() {
@@ -11,7 +10,8 @@ export default function TabsLayout() {
             <Tabs
                 screenOptions={{
                     sceneStyle: {
-                        backgroundColor: colors.gray[800]
+                        backgroundColor: colors.gray[800],
+                        paddingTop: 10,
                     },
                     headerShown: false,
                     tabBarShowLabel: false,
