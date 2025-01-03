@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
         gap: 10,
         alignItems: "center",
         padding: 20,
-        borderBottomWidth: 5,
+        borderBottomWidth: 2, 
         borderBottomColor: colors.gray[400]
     },
     image: {
